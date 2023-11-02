@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosotros Santuario</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/shared.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Poppins:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="whatsapp__floating">
+      <a
+        href="https://wa.me/3027483965?text=Quiero adoptar un rescatadito"
+        target="_blank"
+      >
+        <img src="./assets/images/whatsapp.png" width="50" />
+        <div class="floating__content">
+          <span class="floting__message">Chatea con nosotros</span>
+        </div>
+      </a>
+    </div>
+
+    <!--header-->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="bi bi-flower1"></i>
+            <img
+              class="rounded-pill"
+              src="./assets/images/logo.png"
+              width="50"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./catalog.html">Rescataditos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contactanos</a>
+              </li>
+            </ul>
+
+            <hr class="d-md-none text-white-50" />
+
+            <a href="./donations.html">
+              <button
+                class="btn btn-warning d-none d-sm-inline-block nav__button"
+              >
+                <span>Donaciones</span>
+                <li style="color: white" class="fa fa-heart"></li>
+              </button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--content-->
+    <main class="container">
+      <section class="about__container">
+        <div class="about__img-container">
+          <img class="about__img" src="./assets/svg/mission.svg" />
+        </div>
+        <div class="about__content">
+          <h1 class="about__title">Nuestra misión</h1>
+          <p class="about__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            molestiae dicta quod laboriosam provident at autem quasi vel! Atque
+            qui consequatur perspiciatis debitis, consequuntur alias cum amet
+            dolor eius obcaecati!
+          </p>
+        </div>
+      </section>
+      <div class="floting__animation"></div>
+      <section class="about__container about__container--reverse">
+        <div class="about__img-container">
+          <img
+            class="about__img about__img--mirror"
+            src="./assets/svg/about.svg"
+          />
+        </div>
+        <div class="about__content">
+          <h1 class="about__title">¿Quienes somos?</h1>
+          <p class="about__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            molestiae dicta quod laboriosam provident at autem quasi vel! Atque
+            qui consequatur perspiciatis debitis, consequuntur alias cum amet
+            dolor eius obcaecati!
+          </p>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="section-title">Testimonios</h2>
+          <p class="section-subtitle">Lo que dicen nuestros adoptantes</p>
+          <div class="testimonial-carousel">
+            <div class="testimonial-item">
+              <div class="testimonial-avatar">
+                <img src="./assets/images/juan_perez.jpg" alt="Avatar" />
+              </div>
+              <div class="testimonial-content">
+                <p class="testimonial-quote">
+                  Adoptar a mi perro fue la mejor decisión. Gracias al
+                  santuario, ahora tengo un compañero inseparable.
+                </p>
+                <p class="testimonial-author">
+                  Juan Pérez, adoptante de un perro
+                </p>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-avatar">
+                <img src="./assets/images/maria_lopez.jpg" alt="Avatar" />
+              </div>
+              <div class="testimonial-content">
+                <p class="testimonial-quote">
+                  El santuario es un lugar increíble donde los animales son
+                  tratados con amor y respeto. Gracias a su trabajo, muchos
+                  animales han encontrado un hogar.
+                </p>
+                <p class="testimonial-author">
+                  María López, voluntaria del santuario
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="testimonial-avatar">
+                <img src="./assets/images/laura_sanchez.jpg" alt="Avatar" />
+              </div>
+              <div class="testimonial-content">
+                <p class="testimonial-quote">
+                  Mi hija y yo adoptamos a un gato del santuario hace un año y
+                  ha sido la mejor decisión que hemos tomado. El gato es un
+                  miembro muy querido de nuestra familia y estamos muy
+                  agradecidos al santuario por su ayuda.
+                </p>
+                <p class="testimonial-author">
+                  Laura Sánchez, adoptante de un gato
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="testimonial-avatar">
+                <img src="./assets/images/laura_martinez.jpg" alt="Avatar" />
+              </div>
+              <div class="testimonial-content">
+                <p class="testimonial-quote">
+                  He donado al santuario durante varios años y estoy muy
+                  contenta de hacerlo. El santuario hace un trabajo increíble
+                  ayudando a los animales en necesidad.
+                </p>
+                <p class="testimonial-author">
+                  Laura Martínez, donante del santuario
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+
+    <footer class="footer bg-dark text-white">
+      <div class="container">
+        <div class="row footer__container">
+          <div class="col-md-4">
+            <h4>Únete a nosotros</h4>
+            <p>¿Quieres ayudar a los animales?</p>
+            <a href="./" class="btn btn-primary"
+              >Únete a nuestro equipo de voluntarios</a
+            >
+          </div>
+
+          <div class="col-md-4">
+            <h4>Sobre nosotros</h4>
+            <p>
+              Somos un santuario de animales sin fines de lucro que se dedica a
+              rescatar y rehabilitar animales en peligro.
+            </p>
+            <a href="./about.html" class="btn btn-secondary">Más información</a>
+          </div>
+
+          <div class="col-md-4">
+            <h4>Contacto</h4>
+            <p>Teléfono: 3003333030</p>
+            <p>Correo electrónico: santuario@animales.com</p>
+            <p>Dirección: Calle 123 #123, Santuario, Antioquia</p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright © 2023 Voluntariado Santuario</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

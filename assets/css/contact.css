@@ -1,0 +1,62 @@
+.map__title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact-form h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .contact-form form {
+    width: 100%;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    margin-bottom: 10px;
+  }
+  
+  .form-group textarea {
+    resize: none;
+  }
+  
+  .form-icon {
+    float: right;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .contact-form button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  footer{
+    margin-top: 0;
+  }

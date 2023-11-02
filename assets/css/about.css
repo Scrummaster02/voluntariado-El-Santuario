@@ -1,0 +1,136 @@
+
+.container{
+    position: relative;
+}
+.floting__animation{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: block;
+    background-image: url('../svg/animals_floating_3.svg');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    animation:floating 5s ease-in-out infinite;
+    z-index:1
+}
+@keyframes floating{
+    0%,100%{
+        transform: translateY(0);
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+
+.about__container{
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.about__img-container,
+.about__content{
+    width: 100%;
+}
+
+.about__img{
+    width: 90%;
+    min-width: 250px;
+}
+
+.about__title{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.about__paragraph{
+    color: var(--text-color);
+}
+
+  
+.about__container--reverse{
+  flex-direction: row-reverse !important;
+}
+
+.about__img--mirror{
+    transform: scaleX(-1);
+}
+/***************************************/
+.testimonials {
+    padding: 30px;
+  }
+  
+
+  
+  .testimonial-carousel {
+    margin: 0 auto;
+    width: 70%;
+  }
+  
+  .testimonial-item {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .testimonial-avatar img{
+    width: 100%;
+    background-size: contain;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .testimonial-content {
+    margin-left: 60px;
+  }
+  
+  .testimonial-quote {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .testimonial-author {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+
+
+
+
+
+
+/***************************************/
+
+  
+  footer{
+    margin-top: 0;
+  }
+
+
+
+
+
+  @media (max-width: 1100px) {
+    .about__container{
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width:450px){
+    .testimonial-content{
+      margin-left: 0;
+    }
+  }
+
+  

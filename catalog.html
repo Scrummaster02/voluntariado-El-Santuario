@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo Santuario</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/shared.css" />
+    <link rel="stylesheet" href="./assets/css/catalog.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Poppins:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="whatsapp__floating">
+      <a
+        href="https://wa.me/3027483965?text=Quiero adoptar un rescatadito"
+        target="_blank"
+      >
+        <img src="./assets/images/whatsapp.png" width="50" />
+        <div class="floating__content">
+          <span class="floting__message">Chatea con nosotros</span>
+        </div>
+      </a>
+    </div>
+
+    <!--header-->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="bi bi-flower1"></i>
+            <img
+              class="rounded-pill"
+              src="./assets/images/logo.png"
+              width="50"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./catalog.html">Rescataditos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contactanos</a>
+              </li>
+            </ul>
+
+            <hr class="d-md-none text-white-50" />
+
+            <a href="./donations.html">
+              <button
+                class="btn btn-warning d-none d-sm-inline-block nav__button"
+              >
+                <span>Donaciones</span>
+                <li style="color: white" class="fa fa-heart"></li>
+              </button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--content-->
+    <main class="container">
+      <section class="introduction">
+        <div class="container">
+          <h2 class="section-title">Nuestros rescataditos</h2>
+          <p class="section-subtitle">
+            Encuentra el hogar perfecto para tu nuevo mejor amigo
+          </p>
+          <p class="section-content">
+            En nuestro santuario, nos dedicamos a rescatar y rehabilitar
+            animales en situación de abandono o maltrato. Creemos que todos los
+            animales merecen una segunda oportunidad, y trabajamos para
+            encontrarles el hogar perfecto.
+          </p>
+          <!-- <a href="./adoptions.html">
+          <button class="btn btn-warning">Adoptar</button>
+        </a> -->
+        </div>
+      </section>
+
+      <section class="animals-available">
+        <div class="container">
+          <h2 class="section-title">Animales disponibles</h2>
+          <p class="section-subtitle">Encuentra tu nuevo mejor amigo</p>
+          <div class="animals-list">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="animal-item">
+                  <img src="./assets/images/peludo1.png" alt="Perro" />
+                  <div class="animal-info">
+                    <h3 class="animal-name">Lola</h3>
+                    <p class="animal-description">
+                      Lola es una perra mestiza de 2 años. Es una perra muy
+                      cariñosa y juguetona. Le encanta jugar con otros perros y
+                      con personas.
+                    </p>
+                    <a href="#">
+                      <button class="btn btn-warning">Ver más</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="animal-item">
+                  <img src="./assets/images/peludo6.png" alt="Perro" />
+                  <div class="animal-info">
+                    <h3 class="animal-name">Milo</h3>
+                    <p class="animal-description">
+                      Milo es un perro mestizo de 1 año. Es un gato muy
+                      tranquilo y cariñoso. Le gusta dormir y jugar con
+                      juguetes.
+                    </p>
+                    <a href="#">
+                      <button class="btn btn-warning">Ver más</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="animal-item">
+                  <img src="./assets/images/luna.jpg" alt="Gato" />
+                  <div class="animal-info">
+                    <h3 class="animal-name">Luna</h3>
+                    <p class="animal-description">
+                      Luna es una gata de 5 años. Es una gata muy tranquila y
+                      dócil. Le encanta pasear y jugar con otros gatos
+                    </p>
+                    <a href="#">
+                      <button class="btn btn-warning">Ver más</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="animal-item">
+                  <img src="./assets/images/pepe.jpg" alt="Gato" />
+                  <div class="animal-info">
+                    <h3 class="animal-name">Pepe</h3>
+                    <p class="animal-description">
+                      Pepe es un gato de 2 años. Es un gato muy juguetón y
+                      curioso. Le encanta correr y explorar.
+                    </p>
+                    <a href="#">
+                      <button class="btn btn-warning">Ver más</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="animal-item animal__item-top">
+                  <img src="./assets/images/peludo5.png" alt="Perro" />
+                  <div class="animal-info">
+                    <h3 class="animal-name">Lucas</h3>
+                    <p class="animal-description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nesciunt dolor optio aspernatur reprehenderit at
+                      blanditiis laborum dicta illum.
+                    </p>
+                    <a href="#">
+                      <button class="btn btn-warning">Ver más</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="animal-item animal__item-top">
+                  <img src="./assets/images/peludo2.png" alt="Perro" />
+                  <div class="animal-info">
+                    <h3 class="animal-name">Zeus</h3>
+                    <p class="animal-description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Fugit, odio. Eius neque soluta ducimus cum magnam debitis
+                      nobis explicabo
+                    </p>
+                    <a href="#">
+                      <button class="btn btn-warning">Ver más</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+
+    <footer class="footer bg-dark text-white">
+      <div class="container">
+        <div class="row footer__container">
+          <div class="col-md-4">
+            <h4>Únete a nosotros</h4>
+            <p>¿Quieres ayudar a los animales?</p>
+            <a href="./" class="btn btn-primary"
+              >Únete a nuestro equipo de voluntarios</a
+            >
+          </div>
+
+          <div class="col-md-4">
+            <h4>Sobre nosotros</h4>
+            <p>
+              Somos un santuario de animales sin fines de lucro que se dedica a
+              rescatar y rehabilitar animales en peligro.
+            </p>
+            <a href="./about.html" class="btn btn-secondary">Más información</a>
+          </div>
+
+          <div class="col-md-4">
+            <h4>Contacto</h4>
+            <p>Teléfono: 3003333030</p>
+            <p>Correo electrónico: santuario@animales.com</p>
+            <p>Dirección: Calle 123 #123, Santuario, Antioquia</p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright © 2023 Voluntariado Santuario</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
